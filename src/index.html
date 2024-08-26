@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-[#242424]">
+    <header class="w-full bg-[#242424] border-b border-[#94f347] fixed">
+      <nav class="flex  md:flex-row justify-between p-5 mx-auto w-10/12 ">
+        <h1 class="font-medium text-[#94f347] w-5/12">Omar Ahmed</h1>
+        <div class="w-7/12 hidden  md:block nav_content">
+          <ul class="flex flex-col md:flex-row gap-4 justify-between text-[#94f347]">
+            <a href="#home">
+              <li class="li_hover mt-4 md:mt-0">Home</li>
+            </a>
+            <a href="#about">
+              <li class="li_hover">About Me</li>
+            </a>
+            <a href="#projects">
+              <li class="li_hover">Projects</li>
+            </a>
+            <a href="#skills">
+              <li class="li_hover">Skills</li>
+            </a>
+            <a href="#contact">
+              <li class="li_hover">Contact</li>
+            </a>
+          </ul>
+        </div>
+        <div class="hum_menu menu md:hidden cursor-pointer">
+          <img src="./assests/menu.svg" alt="hum_menu" width="20px" />
+        </div>
+      </nav>
+    </header>
+
+    <section class="w-full bg-[#242424] h-screen content-center" id="home">
+      <div
+        class="hero w-10/12 mx-auto p-5 flex flex-col md:flex-row justify-between"
+      >
+        <div class="bio w-full md:w-6/12 flex flex-col justify-center">
+          <h1 class="text-[#94f347] text-4xl font-semibold">
+            Hi, I'm Omar Ahmed
+          </h1>
+          <p class="text-[#f0f0f0]">
+            I'm a passionate Front-End Developer with a keen eye for design and
+            a love for creating seamless user experiences. Whether it's crafting
+            responsive websites, optimizing performance, or implementing clean,
+            maintainable code, I'm all about bringing ideas to life in the
+            browser.
+          </p>
+          <div class="hirebtn">
+            <button
+              class="bg-[#94f347] p-3 rounded-lg w-1/3 mt-5 text-[#242424] hover:bg-[#242424] hover:border-[#94f347] hover:border hover:text-[#94f347]"
+            >
+              Hire Me
+            </button>
+            <button
+              class="p-3 rounded-lg w-1/3 mt-5 border border-[#94f347] text-[#94f347] hover:bg-[#94f347] hover:text-[#242424]"
+            >
+              Download CV
+            </button>
+          </div>
+        </div>
+        <div class="photo w-full md:w-6/12 flex justify-center">
+          <img
+            src="./assests/—Pngtree—young man with left hand_6513603.png"
+            alt="man"
+            width="350px"
+          />
+        </div>
+      </div>
+    </section>
+
+    <hr class="my-5 border-[#94f347]" />
+    <section
+      class="bg-[#242424] about w-10/12 mx-auto p-5 md:h-screen content-center"
+      id="about"
+    >
+      <h1 class="text-[#94f347] text-3xl font-semibold">About Me</h1>
+      <div class="title text-[#f0f0f0] mb-10">
+        <p class="">
+          I'm Omar Ahmed, a dedicated Front-End Developer with a strong passion
+          for crafting intuitive and visually appealing web applications. My
+          journey in web development began with a fascination for how things
+          work on the web, and it quickly grew into a full-fledged career. I
+          specialize in creating responsive, user-friendly websites using HTML,
+          CSS, and JavaScript, along with frameworks like React
+        </p>
+        <hr class="my-5 border-[#94f347]" />
+        <p class="">
+          With a background in Computer Science and design, I've developed a
+          keen understanding of both the technical and aesthetic aspects of web
+          development. I believe that great design and clean code go hand in
+          hand to create an exceptional user experience.
+        </p>
+      </div>
+      <div class="serv">
+        <h1 class="text-[#94f347] text-3xl font-semibold mb-5">I Focus On</h1>
+        <div
+          class="serv_cards text-[#f0f0f0] flex flex-col md:flex-row justify-between gap-8"
+        >
+          <div
+            class="cardd border border-[#94f347] rounded-lg p-5 flex items-center justify-evenly md:w-4/12"
+          >
+            <img
+              src="./assests/clean-code-program-svgrepo-com.svg"
+              alt="clean"
+              width="150px"
+            />
+            <p class="ml-2">Writing clean, maintainable, and efficient code.</p>
+          </div>
+          <div
+            class="cardd border border-[#94f347] rounded-lg p-5 flex items-center justify-evenly md:w-4/12"
+          >
+            <img
+              src="./assests/datastore-svgrepo-com.svg"
+              alt=""
+              width="150px"
+            />
+            <p class="">
+              Collaborating with designers and back-end developers to bring
+              ideas to life.
+            </p>
+          </div>
+          <div
+            class="cardd border border-[#94f347] rounded-lg p-5 flex items-center justify-evenly md:w-4/12"
+          >
+            <img
+              src="./assests/chart-curvedchart-graph-line-svgrepo-com.svg"
+              alt=""
+              width="150px"
+            />
+            <p class="ml-4">
+              Continuously learning and adapting to the latest industry trends
+              and technologies.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="my-5 border-[#94f347]" />
+
+    <section class="projects bg-[#242424] projects w-10/12 mx-auto p-5" id="projects">
+      <h1 class="text-[#94f347] text-3xl font-semibold mb-5">My Projects</h1>
+      <div
+        class="projects_cards text-[#f0f0f0] flex flex-col justify-between gap-8"
+      >
+        <div
+          class="card border border-[#94f347] rounded-lg p-5 flex flex-col md:flex-row w-full"
+        >
+          <img
+            src="./assests/fitness.png"
+            class="w-full md:w-6/12 rounded-lg border border-[#141414]"
+            alt=""
+          />
+          <div class="pro_title md:px-8">
+            <h1 class="text-2xl text-[#94f347]">MyFitnessPro</h1>
+            <p>
+              MyFitnessPro is a dynamic fitness application built with React,
+              designed to help users track and manage their workouts and
+              nutrition. The app leverages React's component-based architecture
+              to create an intuitive and responsive user interface.
+              Additionally, I used Axios for seamless data fetching from
+              external APIs, ensuring real-time updates and a smooth user
+              experience. This project showcases my proficiency in modern
+              JavaScript frameworks, API integration, and creating feature-rich,
+              interactive web applications.
+            </p>
+            <a href="https://myfitnesspro.netlify.app/">
+              <button
+                class="bg-[#94f347] p-3 rounded-lg w-1/3 mt-5 text-[#242424] hover:bg-[#242424] hover:border-[#94f347] hover:border hover:text-[#94f347]"
+              >
+                View Project
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          class="card border border-[#94f347] rounded-lg p-5 flex flex-col md:flex-row w-full"
+        >
+          <img
+            src="./assests/messi.png"
+            class="w-full md:w-6/12 rounded-lg"
+            alt=""
+          />
+          <div class="pro_title md:px-8">
+            <h1 class="text-2xl text-[#94f347]">
+              The Argentina National Football Club
+            </h1>
+            <p>
+              This project is a tribute page dedicated to Lionel Messi,
+              showcasing my skills in front-end development with a focus on
+              design and styling. Built using HTML, CSS, and Sass, the project
+              demonstrates the use of modern CSS techniques, including modular
+              and maintainable styles with Sass. The design is clean and
+              responsive, ensuring an optimal viewing experience on any device.
+              This project highlights my ability to create visually appealing
+              web pages while efficiently managing styles using Sass.
+            </p>
+            <a href="https://omarraarr.github.io/Messi/">
+              <button
+                class="bg-[#94f347] p-3 rounded-lg w-1/3 mt-5 text-[#242424] hover:bg-[#242424] hover:border-[#94f347] hover:border hover:text-[#94f347]"
+              >
+                View Project
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          class="card border border-[#94f347] rounded-lg p-5 flex flex-col md:flex-row w-full"
+        >
+          <img
+            src="./assests/Screenshot 2024-08-10 211420.png"
+            class="w-full md:w-6/12 rounded-lg"
+            alt=""
+          />
+          <div class="pro_title md:px-8">
+            <h1 class="text-2xl text-[#94f347]">Porsche Website Clone</h1>
+            <p>
+              This project is a pixel-perfect clone of the official Porsche
+              website, created to demonstrate my skills in front-end
+              development. Using HTML, CSS, Bootstrap, and JavaScript, I
+              replicated the design and functionality of the original site. The
+              project focuses on responsive design, smooth animations, and
+              intuitive navigation, all while leveraging Bootstrap's grid system
+              and components to ensure a seamless user experience across
+              devices. This clone highlights my ability to work with popular
+              frameworks and deliver polished, professional web interfaces.
+            </p>
+            <a href="https://omarraarr.github.io/porscheClone/">
+              <button
+                class="bg-[#94f347] p-3 rounded-lg w-1/3 mt-5 text-[#242424] hover:bg-[#242424] hover:border-[#94f347] hover:border hover:text-[#94f347]"
+              >
+                View Project
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="my-5 border-[#94f347]" />
+
+    <section class="bg-[#242424] skills w-10/12 mx-auto p-5 mb-[100px]" id="skills">
+      <h1 class="text-[#94f347] text-3xl font-semibold mt-[10px] mb-[30px]">
+        My Skills
+      </h1>
+      <div class="icons w-full flex flex-wrap flex-col justify-between gap-20">
+        <div class="flex justify-between">
+          <img
+            src="./assests/skills_icons/html-5-svgrepo-com.svg"
+            alt=""
+            width="100px"
+            class=""
+          />
+          <img
+            src="./assests/skills_icons/css-svgrepo-com.svg"
+            alt=""
+            width="100px"
+            class=""
+          />
+          <img
+            src="./assests/skills_icons/js-svgrepo-com.svg"
+            alt=""
+            width="100px"
+            class=""
+          />
+          <img
+            src="./assests/skills_icons/bootstrap-svgrepo-com.svg"
+            alt=""
+            width="100px"
+            class=""
+          />
+        </div>
+        <div class="flex justify-between">
+          <img
+            src="./assests/skills_icons/sass-svgrepo-com.svg"
+            alt=""
+            width="100px"
+            class=""
+          />
+          <img
+            src="./assests/skills_icons/tailwind-svgrepo-com.svg"
+            alt=""
+            width="100px"
+            class=""
+          />
+          <img
+            src="./assests/skills_icons/react-svgrepo-com.svg"
+            alt=""
+            width="100px"
+            class=""
+          />
+          <img
+            src="./assests/skills_icons/vue-svgrepo-com.svg"
+            alt=""
+            width="100px"
+            class=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-[#242424] contact w-full" id="contact">
+      <div
+        class="bg-[#141414] rounded-t-[150px] h-[350px] p-10 flex flex-col text-center items-center justify-between"
+      >
+        <div>
+          <h1 class="text-[#94f347] text-3xl font-semibold">
+            Let's Make Something Awesome Together
+          </h1>
+          <button
+            class="bg-[#94f347] p-3 rounded-lg w-1/3 mt-5 text-[#242424] hover:bg-[#242424] hover:border-[#94f347] hover:border hover:text-[#94f347]"
+          >
+            Hire Me
+          </button>
+        </div>
+        <div class="icons w-full flex flex-wrap flex-col gap-20 mt-5">
+          <div class="flex justify-center">
+            <img
+              src="./assests/skills_icons/github-142-svgrepo-com.svg"
+              alt=""
+              width="40px"
+              class="cursor-pointer"
+            />
+            <img
+              src="./assests/skills_icons/linkedin-svgrepo-com.svg"
+              alt=""
+              width="40px"
+              class="cursor-pointer"
+            />
+            <img
+              src="./assests/skills_icons/instagram-1-svgrepo-com.svg"
+              alt=""
+              width="40px"
+              class="cursor-pointer"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
